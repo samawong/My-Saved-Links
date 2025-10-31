@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Link Saver Settings</title>
+  <style>
+    body { font-family: sans-serif; padding: 10px 20px; min-width: 400px; }
+    h1 { font-size: 1.5em; }
+    label { display: block; margin-top: 20px; font-weight: bold; }
+    input[type="text"], input[type="password"] { width: 100%; padding: 8px; margin-top: 5px; box-sizing: border-box; }
+    button { margin-top: 20px; padding: 10px 15px; font-size: 1em; cursor: pointer; }
+    #status { margin-top: 10px; color: green; font-weight: bold; }
+  </style>
+</head>
+<body>
+<h1>Settings</h1>
+  <label for="workerUrl">Cloudflare Worker URL:</label>
+  <input type="text" id="workerUrl">
+
+  <label for="secretKey">Secret Key (will be encrypted):</label>
+  <input type="text" id="secretKey">
+  
+  <hr style="margin: 20px 0;">
+
+  <label for="masterPassword">Set or Change Master Password:</label>
+  <input type="password" id="masterPassword" placeholder="Leave blank to keep current">
+  
+  <button id="saveBtn">Save Settings</button>
+  <div id="status"></div>
+
+  <script src="crypto-helpers.js"></script>
+  <script src="options.js"></script>
+</body>
+</html>
