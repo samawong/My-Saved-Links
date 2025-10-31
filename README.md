@@ -10,7 +10,7 @@ This is a small website created on Cloudflare Worker. Its main function is to al
 4、创建环境变量 "AUTH_SECRET"；  
 5、把link-saver-extension文件夹下载到本地，然后在浏览器扩展中选择“开发者模式”，“加载解压缩的扩展”，把扩展进行安装。  
 6、右键扩展，选择“扩展选项”，填写worker地址，需要注意的是请按“https://my-links-worker.samafed.workers.dev/api/links”这种格式填写，‘AUTH_SECRET’填写第4步创建的值，最下面的“Set or Change Master Password”是一个本地密码，可填可不填，填上的话每次发送需要输入这个密码。  
-7、打开一个网站，点击这个扩展，输入tag，点击‘Save Link’进行测试。  
+7、打开一个网站，点击这个扩展，输入tag，点击‘Save Link’进行测试。     
 
 
 1. Create a worker site. After successful deployment, click "Edit Code," copy all files from workers.js, and then click "Deploy" again.
