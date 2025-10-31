@@ -16,7 +16,7 @@ This is a small website created on Cloudflare Worker. Its main function is to al
 ![set_worker_endpoint](./images/set_worker_endpoint.png)
 7、打开一个网站，点击这个扩展，输入tag，点击‘Save Link’进行测试。     
 
-
+---
 1. Create a worker site. After successful deployment, click "Edit Code," copy all files from workers.js, and then click "Deploy" again.
 
 2. In the worker KV options, create a key-value namespace named 'MY_LINKS_DB'.
