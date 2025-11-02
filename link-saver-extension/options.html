@@ -12,22 +12,16 @@
   </style>
 </head>
 <body>
-<h1>Settings</h1>
+  <h1>Settings</h1>
   <label for="workerUrl">Cloudflare Worker URL:</label>
-  <input type="text" id="workerUrl">
+  <input type="text" id="workerUrl" placeholder="https://your-worker.workers.dev/api/links">
 
-  <label for="secretKey">Secret Key (will be encrypted):</label>
-  <input type="text" id="secretKey">
+  <label for="secretKey">Secret Key:</label>
+  <input type="password" id="secretKey" placeholder="Enter your secret key">
   
-  <hr style="margin: 20px 0;">
-
-  <label for="masterPassword">Set or Change Master Password:</label>
-  <input type="password" id="masterPassword" placeholder="Leave blank to keep current">
-  
-  <button id="saveBtn">Save Settings</button>
+  <button id="saveBtn">Save</button>
   <div id="status"></div>
 
-  <script src="crypto-helpers.js"></script>
   <script src="options.js"></script>
 </body>
 </html>
