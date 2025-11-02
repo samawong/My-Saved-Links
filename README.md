@@ -1,6 +1,6 @@
 # Link Saver - Cloudflare Worker & Browser Extension
 
-![Project Banner](https://user-images.githubusercontent.com/1582299/148220021-096d4943-525b-4811-9a2c-29b35a399434.png)
+![Homepage](./images/homepage_list.png)
 
 这是一个功能强大且完全由您自己托管的书签/链接保存工具。它由一个部署在 Cloudflare 上的后端服务和一个轻量级的浏览器扩展组成，让您可以一键保存、标记和管理您在网络上发现的任何有趣内容。
 
