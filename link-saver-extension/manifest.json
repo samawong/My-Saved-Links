@@ -19,6 +19,8 @@
  
   },
   "host_permissions": [
-    "https://*.workers.dev/"
+        "https://*/*",
+        "http://*/*"
   ]
+
 }
