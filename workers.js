@@ -135,7 +135,7 @@ export default {
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap" rel="stylesheet">
 
     <!-- Google Adsense-->
-    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=${googleAdsense}"
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=${env.googleAdsense}"
      crossorigin="anonymous"></script>
 
     <style>
