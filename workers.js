@@ -134,6 +134,10 @@ export default {
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap" rel="stylesheet">
 
+    <!-- Google Adsense-->
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=${googleAdsense}"
+     crossorigin="anonymous"></script>
+
     <style>
       :root {
         --background-color: #f8f9fa;
